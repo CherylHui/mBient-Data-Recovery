@@ -1,0 +1,94 @@
+# Local Python environments
+.venv/
+.venv_old_*/
+venv/
+env/
+
+# Python caches and build artefacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Local editor settings and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Recovery outputs, including failed or interrupted attempts
+# Ignoring these files does NOT make it safe to delete them.
+inspect_*/
+retrieve_*/
+decoded_*/
+device_locks/
+
+# Raw recordings, physiological/movement data and archives
+# Keep synthetic fixtures only after reviewing them and adding explicit exceptions.
+*.bin
+*.xdf
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Recovery metadata and reports saved outside the standard output folders
+metadata.json
+raw_manifest.json
+download_report.json
+decode_report.json
+post_flush_length.json
+summary.json
+ERROR.json
+journal.jsonl
+
+# Local diagnostics, logs and machine-specific records
+*.log
+requirements-local.txt
+python-version.txt
+tool-sha256.txt
+
+# Local installation packages and offline dependency cache
+wheelhouse/
+*.pkg
+*.dmg
+*.whl
+
+# Locally generated outputs, backups and private working folders
+output/
+outputs/
+backups/
+local_data/
+private/
+
+# Keep source code, README.md, shared requirements.txt and .gitignore tracked.
