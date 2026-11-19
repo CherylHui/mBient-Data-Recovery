@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Experimental local MMS USB recovery. Fresh uninterrupted downloads only.
+"""Local MMS USB recovery. Fresh uninterrupted downloads only.
 No BLE, network, reset, clear-all, teardown, or automatic crash resume.
 Requires Python 3.10+ and pyserial. Run --help.
 """
