@@ -120,7 +120,7 @@ Use:
 ~/Mbient_USB_recovery
 ```
 
-`$HOME` automatically refers to the current user's home folder. Do not substitute the original operator's `/Users/hwh` path.
+`$HOME` automatically refers to the current user's home folder. 
 
 ```bash
 mkdir -p "$HOME/Mbient_USB_recovery"
